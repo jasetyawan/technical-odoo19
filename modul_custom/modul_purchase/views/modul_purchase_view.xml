@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- List / Tree View -->
+    <record id="modul_purchase_view_list" model="ir.ui.view">
+        <field name="name">modul.purchase.list</field>
+        <field name="model">modul.purchase</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="date"/>
+                <field name="status"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View (Tambahan agar record bisa diedit/dibuat) -->
+    <record id="modul_purchase_view_form" model="ir.ui.view">
+        <field name="name">modul.purchase.form</field>
+        <field name="model">modul.purchase</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="date"/>
+                        <field name="status"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
