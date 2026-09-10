@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- 1. List / Tree View -->
+    <record id="view_custom_purchase_tree" model="ir.ui.view">
+        <field name="name">custom.purchase.list</field>
+        <field name="model">custom.purchase</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="date"/>
+                <field name="status" widget="badge"
+                       decoration-info="status == 'draft'"
+                       decoration-warning="status == 'approved'"
+                       decoration-success="status == 'done'"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- 2. Form View -->
+    <record id="view_custom_purchase_form" model="ir.ui.view">
+        <field name="name">custom.purchase.form</field>
+        <field name="model">custom.purchase</field>
+        <field name="arch" type="xml">
+            <form string="Custom Purchase">
+                <header>
+                    <!-- Action Buttons -->
+                    <button name="action_approve" string="Approve" type="object" class="oe_highlight" invisible="status != 'draft'"/>
+                    <button name="action_done" string="Done" type="object" class="oe_highlight" invisible="status != 'approved'"/>
+                    <button name="action_draft" string="Set to Draft" type="object" invisible="status == 'draft'"/>
+                    <!-- Statusbar Widget -->
+                    <field name="status" widget="statusbar" statusbar_visible="draft,approved,done"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="e.g. PO-0001"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="date"/>
+                            <!-- Many2many Field -->
+                            <field name="brand_ids" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
+                        </group>
+                    </group>
+
+                    <!-- One2many Table / Lines -->
+                    <notebook>
+                        <page string="Purchase Lines" name="purchase_lines">
+                            <field name="line_ids">
+                                <list editable="bottom">
+                                    <field name="product_id"/>
+                                    <field name="product_name"/>
+                                    <field name="quantity"/>
+                                    <field name="uom_id"/>
+                                    <field name="price_unit"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- 3. Kanban View -->
+    <record id="view_custom_purchase_kanban" model="ir.ui.view">
+        <field name="name">custom.purchase.kanban</field>
+        <field name="model">custom.purchase</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="status">
+                <templates>
+                    <t t-name="card">
+                        <div class="d-flex flex-column gap-1">
+                            <strong class="text-primary"><field name="name"/></strong>
+                            <span class="text-muted"><field name="date"/></span>
+                            <div>
+                                <field name="status" widget="badge"/>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+</odoo>

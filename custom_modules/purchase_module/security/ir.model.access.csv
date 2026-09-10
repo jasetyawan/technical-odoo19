@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_custom_purchase_user,custom.purchase.user,model_custom_purchase,base.group_user,1,1,1,1
+access_custom_purchase_line_user,custom.purchase.line.user,model_custom_purchase_line,base.group_user,1,1,1,1
+access_custom_brand_user,custom.brand.user,model_custom_brand,base.group_user,1,1,1,1

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Main Menu -->
+    <menuitem
+        id="menu_custom_purchase_root"
+        name="Custom Purchase"
+        sequence="10"/>
+
+    <!-- Sub Menu -->
+    <menuitem
+        id="menu_custom_purchase_order"
+        name="Purchase Orders"
+        parent="menu_custom_purchase_root"
+        action="action_custom_purchase"
+        sequence="10"/>
+</odoo>
