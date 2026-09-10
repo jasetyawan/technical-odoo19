@@ -4567,3 +4567,507 @@ FileNotFoundError: [Errno 2] No such file or directory: 'c:\\odoo19\\modul_custo
 2026-09-08 13:17:34,976 2692 INFO db_odoo19 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2026-09-08 13:17:36,008 2692 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
 2026-09-08 13:17:36,008 2692 INFO db_odoo19 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=512): Closed 6 connections  
+2026-09-09 16:12:10,752 19304 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:12:10,753 19304 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,753 19304 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,754 19304 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:12:10,755 19304 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-09 16:12:10,758 19304 INFO ? odoo: Odoo version 19.0 
+2026-09-09 16:12:10,758 19304 INFO ? odoo: Using configuration file at c:\odoo19\odoo19\odoo.conf 
+2026-09-09 16:12:10,758 19304 INFO ? odoo: addons paths: _NamespacePath(['C:\\odoo19\\odoo19\\odoo\\addons', 'C:\\Users\\jovse\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'c:\\odoo19\\odoo19\\addons', 'c:\\odoo19\\odoo19\\odoo\\addons', 'c:\\odoo19\\modul_custom']) 
+2026-09-09 16:12:10,759 19304 INFO ? odoo: database: openpg@localhost:5432 
+2026-09-09 16:12:13,745 19304 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-RQAJTVP2:8069 
+2026-09-09 16:12:14,078 19304 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:12:14,086 19304 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:12:15,197 19304 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:12:18,421 19304 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 3.22s, 0 queries (+0 extra) 
+2026-09-09 16:12:18,769 19304 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:12:18,850 19304 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:12:18,890 19304 INFO db_odoo19 odoo.registry: Registry loaded in 5.141s 
+2026-09-09 16:12:18,895 19304 INFO db_odoo19 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-09 16:12:19,014 19304 INFO db_odoo19 odoo.addons.base.models.res_device: User 2 inserts device log (iq5ExmcB5T-gLfDL82FocntYLyah4w02y8NY6kr3fp) 
+2026-09-09 16:12:19,129 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:19] "GET / HTTP/1.1" 303 - 15 0.130 2.723
+2026-09-09 16:12:22,476 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:22] "GET /odoo HTTP/1.1" 200 - 78 0.343 2.910
+2026-09-09 16:12:23,014 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:23] "GET /web/assets/9e6c21d/web.assets_web.min.css HTTP/1.1" 200 - 3 0.032 0.113
+2026-09-09 16:12:23,321 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:23] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.084 0.103
+2026-09-09 16:12:23,435 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:23] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.026 0.087
+2026-09-09 16:12:23,491 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:23] "GET /web/assets/2caf2a4/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.033 0.106
+2026-09-09 16:12:24,596 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:24] "GET /web/assets/5913cd9/web.assets_web.min.js HTTP/1.1" 200 - 3 0.012 1.715
+2026-09-09 16:12:25,140 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "GET /web/webclient/translations?hash=a264abca878fdedbb72e5416e82a669e497c0498&lang=en_US HTTP/1.1" 200 - 2 0.004 0.032
+2026-09-09 16:12:25,452 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "GET /web/bundle/web_tour.interactive?lang=en_US&debug=1 HTTP/1.1" 200 - 3 0.006 0.016
+2026-09-09 16:12:25,543 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "POST /web/action/load HTTP/1.1" 200 - 6 0.095 0.016
+2026-09-09 16:12:25,925 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "GET /web/image/res.partner/3/avatar_128?unique=1788847989000 HTTP/1.1" 200 - 14 0.156 0.118
+2026-09-09 16:12:25,925 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "POST /mail/data HTTP/1.1" 200 - 20 0.174 0.103
+2026-09-09 16:12:25,969 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.115 0.156
+2026-09-09 16:12:26,009 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.042 0.186
+2026-09-09 16:12:26,015 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "POST /mail/data HTTP/1.1" 200 - 43 0.275 0.090
+2026-09-09 16:12:26,613 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "GET /web/image/res.partner/3/avatar_128?unique=1788873189000 HTTP/1.1" 200 - 7 0.021 0.028
+2026-09-09 16:12:26,626 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "GET /web/image/res.partner/2/avatar_128?unique=1788873189000 HTTP/1.1" 200 - 6 0.033 0.032
+2026-09-09 16:12:26,638 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.006 0.018
+2026-09-09 16:12:26,670 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "POST /discuss/channel/messages HTTP/1.1" 200 - 25 0.084 0.041
+2026-09-09 16:12:26,681 19304 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-09-09 16:12:26,843 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:26] "GET /web/bundle/web.assets_emoji?lang=en_US&debug=1 HTTP/1.1" 200 - 2 0.005 0.009
+2026-09-09 16:12:28,383 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:28] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.085
+2026-09-09 16:12:28,745 19304 INFO ? werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:28] "GET /mail/static/lib/idb-keyval/idb-keyval.js HTTP/1.1" 304 - 0 0.000 0.039
+2026-09-09 16:12:29,688 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:29] "POST /web/action/load HTTP/1.1" 200 - 10 0.072 0.015
+2026-09-09 16:12:30,049 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 5 0.037 0.018
+2026-09-09 16:12:30,073 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.008 0.020
+2026-09-09 16:12:30,151 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 45 0.112 0.042
+2026-09-09 16:12:30,163 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.004 0.009
+2026-09-09 16:12:30,163 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 40 0.109 0.094
+2026-09-09 16:12:30,887 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 3 0.037 0.851
+2026-09-09 16:12:38,601 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.043 0.030
+2026-09-09 16:12:38,807 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.003 0.009
+2026-09-09 16:12:38,928 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:12:38] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.005
+2026-09-09 16:12:43,547 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:12:43,558 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:12:43,558 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:12:57,628 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 127.0.0.1 
+2026-09-09 16:12:57,779 19304 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:12:57,793 19304 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:12:57,860 19304 INFO db_odoo19 odoo.modules.loading: updating modules list 
+2026-09-09 16:12:57,864 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-09-09 16:13:00,661 19304 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:13:00,714 19304 INFO db_odoo19 odoo.modules.loading: Loading module modul_purchase (52/59) 
+2026-09-09 16:13:01,002 19304 INFO db_odoo19 odoo.registry: module modul_purchase: creating or updating database tables 
+2026-09-09 16:13:01,279 19304 WARNING db_odoo19 odoo.modules.loading: Transient module states were reset 
+2026-09-09 16:13:01,281 19304 ERROR db_odoo19 odoo.registry: Failed to load registry 
+2026-09-09 16:13:01,292 19304 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:13:01,302 19304 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:13:01,307 19304 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:13:01,373 19304 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 0.07s, 0 queries (+0 extra) 
+2026-09-09 16:13:01,731 19304 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:13:01,766 19304 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:13:01,780 19304 INFO db_odoo19 odoo.registry: Registry loaded in 0.499s 
+2026-09-09 16:13:02,076 19304 ERROR db_odoo19 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\odoo19\odoo19\odoo\http.py", line 2857, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\odoo19\odoo19\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2384, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2599, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odoo19\odoo19\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 72, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 701, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 638, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 222, in load_module_graph
+    module.write(module.get_values_from_terp(package.manifest))
+  File "c:\odoo19\odoo19\addons\account\models\ir_module.py", line 65, in write
+    res = super().write(vals)
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\models.py", line 4475, in write
+    field.write(self, value)
+  File "C:\odoo19\odoo19\odoo\orm\fields.py", line 1512, in write
+    cache_value = self.convert_to_cache(value, records)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\fields_selection.py", line 235, in convert_to_cache
+    raise ValueError("Wrong value for %s: %r" % (self, value))
+ValueError: Wrong value for ir.module.module.license: 'QEEL-1'
+2026-09-09 16:13:02,081 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:13:02] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3360 2.809 15.736
+2026-09-09 16:13:14,875 19304 INFO db_odoo19 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-09 16:13:14,956 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:13:14] "GET /web/service-worker.js HTTP/1.1" 200 - 12 0.014 0.071
+2026-09-09 16:13:19,021 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2026-09-09 16:13:19,575 19304 INFO db_odoo19 odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2026-09-09 16:13:19,680 19304 INFO db_odoo19 odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2026-09-09 16:13:19,753 19304 INFO db_odoo19 odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2026-09-09 16:13:19,856 19304 INFO db_odoo19 odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2026-09-09 16:13:19,932 19304 INFO db_odoo19 odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2026-09-09 16:13:20,111 19304 INFO db_odoo19 odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1, 2, 3, 4] 
+2026-09-09 16:13:20,176 19304 INFO db_odoo19 odoo.models.unlink: User #1 deleted res.config.settings records with IDs: [1] 
+2026-09-09 16:13:20,190 19304 INFO db_odoo19 odoo.addons.api_doc.models.ir_attachment: GC'd 0 /doc cached index 
+2026-09-09 16:13:20,272 19304 INFO db_odoo19 odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2026-09-09 16:13:20,469 19304 INFO db_odoo19 odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2026-09-09 16:13:20,497 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) fully done (#loop 1; done 0; remaining 0; duration 1.47s) 
+2026-09-09 16:13:20,510 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2026-09-09 16:13:20,532 19304 INFO db_odoo19 odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2026-09-09 16:13:20,537 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:20,544 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-09-09 16:13:20,567 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:20,575 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2026-09-09 16:13:20,600 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:20,608 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2026-09-09 16:13:20,636 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) fully done (#loop 1; done 0; remaining 0; duration 0.01s) 
+2026-09-09 16:13:20,644 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) starting 
+2026-09-09 16:13:20,673 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (12) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:20,682 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) starting 
+2026-09-09 16:13:20,719 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (13) fully done (#loop 1; done 0; remaining 0; duration 0.05s) 
+2026-09-09 16:13:20,727 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Digest Emails' (14) starting 
+2026-09-09 16:13:21,557 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Digest Emails' (14) fully done (#loop 1; done 0; remaining 0; duration 0.83s) 
+2026-09-09 16:13:21,565 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (16) starting 
+2026-09-09 16:13:21,674 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (16) fully done (#loop 1; done 0; remaining 0; duration 0.11s) 
+2026-09-09 16:13:21,682 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) starting 
+2026-09-09 16:13:21,705 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (17) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:21,713 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (18) starting 
+2026-09-09 16:13:21,768 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (18) fully done (#loop 1; done 0; remaining 0; duration 0.06s) 
+2026-09-09 16:13:21,776 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-09-09 16:13:21,795 19304 INFO db_odoo19 odoo.addons.mail.models.mail_mail: Processing email queue with send limit of '1000' 
+2026-09-09 16:13:25,899 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) fully done (#loop 1; done 0; remaining 0; duration 4.12s) 
+2026-09-09 16:13:25,909 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) starting 
+2026-09-09 16:13:25,939 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (11) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:25,948 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2026-09-09 16:13:25,977 19304 INFO db_odoo19 odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) fully done (#loop 1; done 0; remaining 0; duration 0.03s) 
+2026-09-09 16:13:32,730 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:13:32,735 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:13:32,735 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:13:35,458 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 127.0.0.1 
+2026-09-09 16:13:35,526 19304 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:13:35,534 19304 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:13:35,585 19304 INFO db_odoo19 odoo.modules.loading: updating modules list 
+2026-09-09 16:13:35,586 19304 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-09-09 16:13:38,125 19304 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:13:38,176 19304 INFO db_odoo19 odoo.modules.loading: Loading module modul_purchase (52/59) 
+2026-09-09 16:13:38,447 19304 INFO db_odoo19 odoo.registry: module modul_purchase: creating or updating database tables 
+2026-09-09 16:13:38,532 19304 WARNING db_odoo19 odoo.modules.loading: Transient module states were reset 
+2026-09-09 16:13:38,534 19304 ERROR db_odoo19 odoo.registry: Failed to load registry 
+2026-09-09 16:13:38,546 19304 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:13:38,553 19304 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:13:38,556 19304 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:13:38,605 19304 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 0.05s, 0 queries (+0 extra) 
+2026-09-09 16:13:38,867 19304 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:13:38,889 19304 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:13:38,898 19304 INFO db_odoo19 odoo.registry: Registry loaded in 0.364s 
+2026-09-09 16:13:38,902 19304 ERROR db_odoo19 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\odoo19\odoo19\odoo\http.py", line 2857, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\odoo19\odoo19\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2384, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2599, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odoo19\odoo19\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 72, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 701, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 638, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 222, in load_module_graph
+    module.write(module.get_values_from_terp(package.manifest))
+  File "c:\odoo19\odoo19\addons\account\models\ir_module.py", line 65, in write
+    res = super().write(vals)
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\models.py", line 4475, in write
+    field.write(self, value)
+  File "C:\odoo19\odoo19\odoo\orm\fields.py", line 1512, in write
+    cache_value = self.convert_to_cache(value, records)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\fields_selection.py", line 235, in convert_to_cache
+    raise ValueError("Wrong value for %s: %r" % (self, value))
+ValueError: Wrong value for ir.module.module.license: 'QEEL-1'
+2026-09-09 16:13:38,906 19304 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:13:38] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3361 2.356 3.834
+2026-09-09 16:19:37,486 19304 INFO db_odoo19 odoo.service.server: Initiating shutdown 
+2026-09-09 16:19:37,486 19304 INFO db_odoo19 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-09 16:19:38,001 19304 INFO db_odoo19 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=512): Closed 6 connections  
+2026-09-09 16:19:38,020 19304 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,345 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:19:47,347 8436 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-09 16:19:47,349 8436 INFO ? odoo: Odoo version 19.0 
+2026-09-09 16:19:47,349 8436 INFO ? odoo: Using configuration file at c:\odoo19\odoo19\odoo.conf 
+2026-09-09 16:19:47,349 8436 INFO ? odoo: addons paths: _NamespacePath(['C:\\odoo19\\odoo19\\odoo\\addons', 'C:\\Users\\jovse\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'c:\\odoo19\\odoo19\\addons', 'c:\\odoo19\\odoo19\\odoo\\addons', 'c:\\odoo19\\modul_custom']) 
+2026-09-09 16:19:47,349 8436 INFO ? odoo: database: openpg@localhost:5432 
+2026-09-09 16:19:49,148 8436 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-RQAJTVP2:8069 
+2026-09-09 16:19:49,298 8436 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:19:49,306 8436 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:19:49,373 8436 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:19:51,827 8436 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 2.45s, 0 queries (+0 extra) 
+2026-09-09 16:19:52,155 8436 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:19:52,191 8436 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:19:52,230 8436 INFO db_odoo19 odoo.registry: Registry loaded in 3.079s 
+2026-09-09 16:19:52,235 8436 INFO db_odoo19 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-09 16:19:55,307 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:55] "GET /odoo/apps HTTP/1.1" 200 - 89 0.246 5.142
+2026-09-09 16:19:55,874 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:55] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.039 0.051
+2026-09-09 16:19:56,541 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:56] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.013 0.012
+2026-09-09 16:19:57,031 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "GET /web/bundle/web_tour.interactive?lang=en_US&debug=1 HTTP/1.1" 200 - 3 0.032 0.143
+2026-09-09 16:19:57,205 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "GET /web/webclient/translations?hash=a264abca878fdedbb72e5416e82a669e497c0498&lang=en_US HTTP/1.1" 200 - 2 0.038 0.308
+2026-09-09 16:19:57,205 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/get_views#ir.module.module.get_views HTTP/1.1" 200 - 45 0.101 0.252
+2026-09-09 16:19:57,205 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 1 0.023 0.148
+2026-09-09 16:19:57,234 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /mail/data HTTP/1.1" 200 - 27 0.165 0.054
+2026-09-09 16:19:57,329 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 46 0.088 0.203
+2026-09-09 16:19:57,451 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.103
+2026-09-09 16:19:57,531 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.006 0.007
+2026-09-09 16:19:57,539 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.012 0.008
+2026-09-09 16:19:57,564 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.005 0.017
+2026-09-09 16:19:57,703 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:57] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.152 0.034
+2026-09-09 16:19:58,012 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:58] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.009
+2026-09-09 16:19:58,086 8436 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-09-09 16:19:59,589 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:19:59] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.003 0.003
+2026-09-09 16:20:02,115 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:20:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range#ir.module.module.search_panel_select_range HTTP/1.1" 200 - 43 0.049 0.039
+2026-09-09 16:20:02,381 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:20:02] "POST /web/dataset/call_kw/ir.module.module/web_search_read#ir.module.module.web_search_read HTTP/1.1" 200 - 2 0.004 0.007
+2026-09-09 16:20:02,704 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:20:02] "POST /web/dataset/call_kw/ir.module.module/check_module_update#ir.module.module.check_module_update HTTP/1.1" 200 - 2 0.002 0.005
+2026-09-09 16:20:04,873 8436 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:20:04,881 8436 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:20:04,881 8436 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:20:08,280 8436 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 127.0.0.1 
+2026-09-09 16:20:08,396 8436 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:20:08,404 8436 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:20:08,455 8436 INFO db_odoo19 odoo.modules.loading: updating modules list 
+2026-09-09 16:20:08,457 8436 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-09-09 16:20:11,120 8436 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:20:11,171 8436 INFO db_odoo19 odoo.modules.loading: Loading module modul_purchase (52/59) 
+2026-09-09 16:20:11,439 8436 INFO db_odoo19 odoo.registry: module modul_purchase: creating or updating database tables 
+2026-09-09 16:20:11,585 8436 WARNING db_odoo19 odoo.modules.loading: Transient module states were reset 
+2026-09-09 16:20:11,587 8436 ERROR db_odoo19 odoo.registry: Failed to load registry 
+2026-09-09 16:20:11,599 8436 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:20:11,605 8436 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:20:11,610 8436 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:20:11,658 8436 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 0.05s, 0 queries (+0 extra) 
+2026-09-09 16:20:11,922 8436 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:20:11,952 8436 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:20:11,965 8436 INFO db_odoo19 odoo.registry: Registry loaded in 0.377s 
+2026-09-09 16:20:11,977 8436 ERROR db_odoo19 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\odoo19\odoo19\odoo\http.py", line 2857, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2331, in _serve_db
+    raise self._update_served_exception(exc)
+  File "C:\odoo19\odoo19\odoo\http.py", line 2329, in _serve_db
+    return service_model.retrying(serve_func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 188, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2384, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 2599, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_http.py", line 353, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\http.py", line 838, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\odoo19\odoo19\addons\web\controllers\dataset.py", line 38, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\service\model.py", line 97, in call_kw
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 72, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 701, in button_immediate_upgrade
+    return self._button_immediate_function(self.env.registry[self._name].button_upgrade)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\addons\base\models\ir_module.py", line 638, in _button_immediate_function
+    registry = modules.registry.Registry.new(self.env.cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\tools\func.py", line 88, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\registry.py", line 189, in new
+    load_modules(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 464, in load_modules
+    load_module_graph(
+  File "C:\odoo19\odoo19\odoo\modules\loading.py", line 222, in load_module_graph
+    module.write(module.get_values_from_terp(package.manifest))
+  File "c:\odoo19\odoo19\addons\account\models\ir_module.py", line 65, in write
+    res = super().write(vals)
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\models.py", line 4475, in write
+    field.write(self, value)
+  File "C:\odoo19\odoo19\odoo\orm\fields.py", line 1512, in write
+    cache_value = self.convert_to_cache(value, records)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\odoo19\odoo19\odoo\orm\fields_selection.py", line 235, in convert_to_cache
+    raise ValueError("Wrong value for %s: %r" % (self, value))
+ValueError: Wrong value for ir.module.module.license: 'QEEL-1'
+2026-09-09 16:20:11,981 8436 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:20:11] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 3360 2.602 4.517
+2026-09-09 16:21:15,618 8436 INFO db_odoo19 odoo.service.server: Initiating shutdown 
+2026-09-09 16:21:15,618 8436 INFO db_odoo19 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-09 16:21:16,021 8436 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
+2026-09-09 16:21:16,021 8436 INFO db_odoo19 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=512): Closed 6 connections  
+2026-09-09 16:21:22,212 18604 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: option addons_path, invalid addons directory 'c:\\odoo19\\odoo19\\odoo', skipped 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'geoip_database' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,213 18604 WARNING ? odoo.tools.config: unknown option 'longpolling_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: unknown option 'osv_memory_age_limit' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: option osv_memory_count_limit reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: option log_db reads 'False' in the config file at c:\odoo19\odoo19\odoo.conf but isn't a boolean option, skip 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc_interface' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: unknown option 'xmlrpc_port' in the config file at c:\odoo19\odoo19\odoo.conf, option stored as-is, without parsing 
+2026-09-09 16:21:22,214 18604 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-09-09 16:21:22,215 18604 INFO ? odoo: Odoo version 19.0 
+2026-09-09 16:21:22,215 18604 INFO ? odoo: Using configuration file at c:\odoo19\odoo19\odoo.conf 
+2026-09-09 16:21:22,216 18604 INFO ? odoo: addons paths: _NamespacePath(['C:\\odoo19\\odoo19\\odoo\\addons', 'C:\\Users\\jovse\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'c:\\odoo19\\odoo19\\addons', 'c:\\odoo19\\odoo19\\odoo\\addons', 'c:\\odoo19\\modul_custom']) 
+2026-09-09 16:21:22,216 18604 INFO ? odoo: database: openpg@localhost:5432 
+2026-09-09 16:21:23,677 18604 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-RQAJTVP2:8069 
+2026-09-09 16:21:23,827 18604 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:21:23,835 18604 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:21:23,894 18604 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:21:26,374 18604 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 2.48s, 0 queries (+0 extra) 
+2026-09-09 16:21:26,729 18604 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:21:26,764 18604 WARNING db_odoo19 odoo.schema: Missing not-null constraint on modul.purchase.status 
+2026-09-09 16:21:26,803 18604 INFO db_odoo19 odoo.registry: Registry loaded in 3.123s 
+2026-09-09 16:21:46,280 18604 INFO db_odoo19 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-09 16:21:46,362 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:46] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 6 0.029 0.058
+2026-09-09 16:21:46,837 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:46] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.035 0.107
+2026-09-09 16:21:46,921 18604 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-09-09 16:21:50,976 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:50] "POST /web/action/load HTTP/1.1" 200 - 10 0.056 0.015
+2026-09-09 16:21:51,366 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:51] "POST /web/dataset/call_kw/base.module.update/get_views#base.module.update.get_views HTTP/1.1" 200 - 14 0.039 0.024
+2026-09-09 16:21:51,577 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:51] "POST /web/dataset/call_kw/base.module.update/onchange#base.module.update.onchange HTTP/1.1" 200 - 2 0.003 0.006
+2026-09-09 16:21:53,016 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:53] "POST /web/dataset/call_kw/base.module.update/web_save#base.module.update.web_save HTTP/1.1" 200 - 5 0.013 0.007
+2026-09-09 16:21:53,346 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2026-09-09 16:21:57,006 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:21:57] "POST /web/dataset/call_button/base.module.update/update_module#base.module.update.update_module HTTP/1.1" 200 - 1642 1.314 2.353
+2026-09-09 16:22:07,385 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:22:07,393 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:22:07,393 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Custom Purchase Module'] to user admin #2 via 127.0.0.1 
+2026-09-09 16:22:10,160 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 127.0.0.1 
+2026-09-09 16:22:10,294 18604 INFO db_odoo19 odoo.modules.loading: loading 1 modules... 
+2026-09-09 16:22:10,302 18604 INFO db_odoo19 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-09-09 16:22:10,358 18604 INFO db_odoo19 odoo.modules.loading: updating modules list 
+2026-09-09 16:22:10,366 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-09-09 16:22:13,122 18604 INFO db_odoo19 odoo.modules.loading: loading 59 modules... 
+2026-09-09 16:22:13,175 18604 INFO db_odoo19 odoo.modules.loading: Loading module modul_purchase (52/59) 
+2026-09-09 16:22:13,459 18604 INFO db_odoo19 odoo.registry: module modul_purchase: creating or updating database tables 
+2026-09-09 16:22:13,619 18604 INFO db_odoo19 odoo.modules.loading: loading modul_purchase/security/ir.model.access.csv 
+2026-09-09 16:22:13,686 18604 INFO db_odoo19 odoo.modules.loading: loading modul_purchase/views/modul_purchase_view.xml 
+2026-09-09 16:22:13,889 18604 INFO db_odoo19 odoo.modules.loading: loading modul_purchase/views/modul_purchase_action.xml 
+2026-09-09 16:22:13,902 18604 INFO db_odoo19 odoo.modules.loading: loading modul_purchase/views/modul_purchase_menuitem.xml 
+2026-09-09 16:22:13,997 18604 INFO db_odoo19 odoo.modules.loading: Module modul_purchase loaded in 0.82s, 102 queries (+102 other) 
+2026-09-09 16:22:14,002 18604 INFO db_odoo19 odoo.modules.loading: 59 modules loaded in 0.88s, 102 queries (+102 extra) 
+2026-09-09 16:22:16,241 18604 INFO db_odoo19 odoo.modules.loading: Modules loaded. 
+2026-09-09 16:22:16,269 18604 INFO db_odoo19 odoo.registry: Registry changed, signaling through the database 
+2026-09-09 16:22:16,275 18604 INFO db_odoo19 odoo.registry: Registry loaded in 6.049s 
+2026-09-09 16:22:16,276 18604 INFO db_odoo19 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-09-09 16:22:16,325 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:16] "POST /web/dataset/call_button/ir.module.module/button_immediate_upgrade#ir.module.module.button_immediate_upgrade HTTP/1.1" 200 - 4493 4.475 4.476
+2026-09-09 16:22:16,661 18604 INFO db_odoo19 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-09-09 16:22:19,510 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:19] "GET /odoo HTTP/1.1" 200 - 82 0.114 2.739
+2026-09-09 16:22:19,815 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:19] "GET /web/webclient/load_menus HTTP/1.1" 200 - 13 0.021 0.038
+2026-09-09 16:22:20,028 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.010 0.017
+2026-09-09 16:22:20,352 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "GET /web/webclient/translations?hash=&lang=en_US HTTP/1.1" 200 - 2 0.002 0.023
+2026-09-09 16:22:20,689 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "GET /web/bundle/web_tour.interactive?lang=en_US&debug=1 HTTP/1.1" 200 - 3 0.003 0.014
+2026-09-09 16:22:20,748 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "POST /web/action/load HTTP/1.1" 200 - 6 0.065 0.009
+2026-09-09 16:22:20,913 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.025 0.073
+2026-09-09 16:22:20,976 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:20] "GET /bus/websocket_worker_bundle?v=19.0-2 HTTP/1.1" 304 - 4 0.036 0.124
+2026-09-09 16:22:21,007 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:21] "POST /mail/data HTTP/1.1" 200 - 27 0.157 0.036
+2026-09-09 16:22:21,128 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:21] "POST /mail/data HTTP/1.1" 200 - 43 0.128 0.064
+2026-09-09 16:22:21,307 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:21] "GET /websocket?version=19.0-2 HTTP/1.1" 101 - 1 0.001 0.011
+2026-09-09 16:22:21,434 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:21] "POST /discuss/channel/messages HTTP/1.1" 200 - 21 0.054 0.032
+2026-09-09 16:22:21,806 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:21] "GET /web/bundle/web.assets_emoji?lang=en_US&debug=1 HTTP/1.1" 200 - 2 0.003 0.008
+2026-09-09 16:22:23,041 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:23] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.004
+2026-09-09 16:22:24,308 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:24] "POST /web/action/load HTTP/1.1" 200 - 9 0.011 0.010
+2026-09-09 16:22:24,642 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:24] "POST /web/dataset/call_kw/modul.purchase/get_views#modul.purchase.get_views HTTP/1.1" 200 - 26 0.044 0.045
+2026-09-09 16:22:24,678 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:24] "POST /web/dataset/call_kw/modul.purchase/web_search_read#modul.purchase.web_search_read HTTP/1.1" 200 - 3 0.008 0.009
+2026-09-09 16:22:26,864 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:26] "POST /web/dataset/call_kw/modul.purchase/web_read_group#modul.purchase.web_read_group HTTP/1.1" 200 - 2 0.002 0.006
+2026-09-09 16:22:27,133 18604 INFO ? werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:27] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.027
+2026-09-09 16:22:28,056 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:28] "POST /web/dataset/call_kw/modul.purchase/web_search_read#modul.purchase.web_search_read HTTP/1.1" 200 - 2 0.002 0.009
+2026-09-09 16:22:30,056 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:30] "POST /web/dataset/call_kw/modul.purchase/onchange#modul.purchase.onchange HTTP/1.1" 200 - 2 0.003 0.006
+2026-09-09 16:22:42,797 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:42] "POST /web/dataset/call_kw/modul.purchase/web_save#modul.purchase.web_save HTTP/1.1" 200 - 4 0.011 0.009
+2026-09-09 16:22:44,627 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:44] "POST /web/dataset/call_kw/modul.purchase/web_search_read#modul.purchase.web_search_read HTTP/1.1" 200 - 2 0.003 0.005
+2026-09-09 16:22:46,689 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:46] "POST /web/dataset/call_kw/modul.purchase/web_read_group#modul.purchase.web_read_group HTTP/1.1" 200 - 4 0.005 0.007
+2026-09-09 16:22:50,103 18604 INFO db_odoo19 werkzeug: 127.0.0.1 - - [09/Sep/2026 16:22:50] "POST /web/dataset/call_kw/modul.purchase/web_search_read#modul.purchase.web_search_read HTTP/1.1" 200 - 2 0.002 0.006
+2026-09-09 16:23:04,547 18604 INFO db_odoo19 odoo.service.server: Initiating shutdown 
+2026-09-09 16:23:04,547 18604 INFO db_odoo19 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-09-09 16:23:05,646 18604 INFO db_odoo19 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=512): Closed 4 connections  
+2026-09-09 16:23:05,646 18604 INFO ? odoo.service.server: cron0 max age (0s) reached, releasing connection. 
