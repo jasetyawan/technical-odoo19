@@ -5,3 +5,4 @@ __pycache__/
 odoo.conf
 filestore/
 sessions/
+odoo19/odoo.log
