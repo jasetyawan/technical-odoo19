@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- 1. List View for Brand -->
+    <record id="view_custom_brand_list" model="ir.ui.view">
+        <field name="name">custom.brand.list</field>
+        <field name="model">custom.brand</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="description"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- 2. Form View for Brand -->
+    <record id="view_custom_brand_form" model="ir.ui.view">
+        <field name="name">custom.brand.form</field>
+        <field name="model">custom.brand</field>
+        <field name="arch" type="xml">
+            <form string="Brand">
+                <sheet>
+                    <group>
+                        <field name="name" placeholder="e.g. Acme Corp"/>
+                        <field name="description" placeholder="Brand description or details..."/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- 3. Action Window for Brand -->
+    <record id="action_custom_brand" model="ir.actions.act_window">
+        <field name="name">Brands</field>
+        <field name="res_model">custom.brand</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

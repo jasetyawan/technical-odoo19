@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
 
-    <!-- 1. List / Tree View -->
-    <record id="view_custom_purchase_tree" model="ir.ui.view">
+    <!-- 1. List View -->
+    <record id="view_custom_purchase_list" model="ir.ui.view">
         <field name="name">custom.purchase.list</field>
         <field name="model">custom.purchase</field>
         <field name="arch" type="xml">
             <list>
                 <field name="name"/>
                 <field name="date"/>
-                <field name="status" widget="badge"
-                       decoration-info="status == 'draft'"
-                       decoration-warning="status == 'approved'"
-                       decoration-success="status == 'done'"/>
+                <field name="state" widget="badge"
+                       decoration-info="state == 'draft'"
+                       decoration-warning="state == 'approved'"
+                       decoration-success="state == 'done'"/>
             </list>
         </field>
     </record>
@@ -24,28 +24,44 @@
         <field name="arch" type="xml">
             <form string="Custom Purchase">
                 <header>
-                    <!-- Action Buttons -->
-                    <button name="action_approve" string="Approve" type="object" class="oe_highlight" invisible="status != 'draft'"/>
-                    <button name="action_done" string="Done" type="object" class="oe_highlight" invisible="status != 'approved'"/>
-                    <button name="action_draft" string="Set to Draft" type="object" invisible="status == 'draft'"/>
+                    <!-- Form Save & Close Button -->
+                    <button name="action_save_and_close"
+                            string="Save &amp; Close"
+                            type="object"
+                            class="btn-primary"/>
+
+                    <!-- Form Discard Button (Available during draft state) -->
+                    <button name="action_discard_record"
+                            string="Discard"
+                            type="object"
+                            class="btn-secondary"
+                            invisible="state != 'draft'"
+                            confirm="Are you sure you want to discard and delete this record?"/>
+
+                    <!-- Workflow Action Buttons -->
+                    <button name="action_approve" string="Approve" type="object" class="oe_highlight" invisible="state != 'draft'"/>
+                    <button name="action_done" string="Done" type="object" class="oe_highlight" invisible="state != 'approved'"/>
+                    <button name="action_draft" string="Set to Draft" type="object" invisible="state == 'draft'"/>
+
                     <!-- Statusbar Widget -->
-                    <field name="status" widget="statusbar" statusbar_visible="draft,approved,done"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,approved,done"/>
                 </header>
                 <sheet>
                     <div class="oe_title">
                         <h1>
-                            <field name="name" placeholder="e.g. PO-0001"/>
+                            <!-- Editable only during draft state -->
+                            <field name="name" placeholder="e.g. PO-0001" readonly="state != 'draft'"/>
                         </h1>
                     </div>
                     <group>
                         <group>
                             <field name="date"/>
-                            <!-- Many2many Field -->
-                            <field name="brand_ids" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
+                            <!-- Many2many selection field -->
+                            <field name="brand_ids" widget="many2many_tags" options="{'no_create_edit': True}"/>
                         </group>
                     </group>
 
-                    <!-- One2many Table / Lines -->
+                    <!-- Purchase Order Lines Table (Inline Editable) -->
                     <notebook>
                         <page string="Purchase Lines" name="purchase_lines">
                             <field name="line_ids">
@@ -55,6 +71,7 @@
                                     <field name="quantity"/>
                                     <field name="uom_id"/>
                                     <field name="price_unit"/>
+                                    <field name="subtotal" readonly="1"/>
                                 </list>
                             </field>
                         </page>
@@ -70,14 +87,14 @@
         <field name="name">custom.purchase.kanban</field>
         <field name="model">custom.purchase</field>
         <field name="arch" type="xml">
-            <kanban default_group_by="status">
+            <kanban default_group_by="state">
                 <templates>
                     <t t-name="card">
                         <div class="d-flex flex-column gap-1">
                             <strong class="text-primary"><field name="name"/></strong>
                             <span class="text-muted"><field name="date"/></span>
                             <div>
-                                <field name="status" widget="badge"/>
+                                <field name="state" widget="badge"/>
                             </div>
                         </div>
                     </t>

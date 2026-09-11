@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-    <!-- Main Menu -->
+    <!-- 1. Main Menu (Root) -->
     <menuitem
         id="menu_custom_purchase_root"
         name="Custom Purchase"
         sequence="10"/>
 
-    <!-- Sub Menu -->
+    <!-- 2. Sub Menu: Purchase Orders -->
     <menuitem
         id="menu_custom_purchase_order"
         name="Purchase Orders"
         parent="menu_custom_purchase_root"
         action="action_custom_purchase"
+        sequence="10"/>
+
+    <!-- 3. Sub Menu: Configuration -->
+    <menuitem
+        id="menu_custom_purchase_config"
+        name="Configuration"
+        parent="menu_custom_purchase_root"
+        sequence="100"/>
+
+    <!-- 4. Sub Menu Item: Brands (Under Configuration) -->
+    <menuitem
+        id="menu_custom_purchase_brand"
+        name="Brands"
+        parent="menu_custom_purchase_config"
+        action="action_custom_brand"
         sequence="10"/>
 </odoo>

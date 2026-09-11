@@ -9,11 +9,12 @@
     'website': '',
     'author': 'jasetyawan',
     'depends': ['base', 'purchase', 'product', 'uom'],
-    'data': [
-        'security/ir.model.access.csv',
-        'views/custom_purchase_view.xml',
-        'views/custom_purchase_action.xml',
-        'views/custom_purchase_menuitem.xml'
+    "data": [
+        "security/ir.model.access.csv",
+        "views/custom_purchase_view.xml",
+        "views/custom_brand_view.xml",
+        "views/custom_purchase_action.xml",
+        "views/custom_purchase_menuitem.xml",
     ],
     'installable': True,
     'application': True,
